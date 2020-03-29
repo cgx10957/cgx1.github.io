@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Chenhao Li</title>
+  <icon>http://yoursite.com/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-29T06:38:32.641Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Chenhao Li</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>通过Github page建立博客-4-Markdown</title>
+    <link href="http://yoursite.com/2019/08/12/2019-8-12-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-4-Markdown/"/>
+    <id>http://yoursite.com/2019/08/12/2019-8-12-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-4-Markdown/</id>
+    <published>2019-08-12T08:34:59.000Z</published>
+    <updated>2020-03-29T06:38:32.641Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这个视频向大家大致讲解 markdown 的语法。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/SoKSwhMuHq8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Everything Is
+        
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/categories/tech/"/>
+    
+    
+      <category term="github_page静态博客" scheme="http://yoursite.com/tags/github-page%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过Github page建立博客-3-添加文章-jekyll结构</title>
+    <link href="http://yoursite.com/2019/08/12/2019-8-12-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-3-%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0-jekyll%E7%BB%93%E6%9E%84/"/>
+    <id>http://yoursite.com/2019/08/12/2019-8-12-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-3-%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0-jekyll%E7%BB%93%E6%9E%84/</id>
+    <published>2019-08-12T07:34:59.000Z</published>
+    <updated>2020-03-29T06:38:26.945Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这个视频向大家讲解怎么给自己的 github page 添加文章，并简单介绍 jekyll 静态博客的结构。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/O1CjWoBWKmo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/categories/tech/"/>
+    
+    
+      <category term="github_page静态博客" scheme="http://yoursite.com/tags/github-page%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过Github page建立博客-2-建立域名</title>
+    <link href="http://yoursite.com/2019/08/12/2019-8-12-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-2-%E5%BB%BA%E7%AB%8B%E5%9F%9F%E5%90%8D/"/>
+    <id>http://yoursite.com/2019/08/12/2019-8-12-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-2-%E5%BB%BA%E7%AB%8B%E5%9F%9F%E5%90%8D/</id>
+    <published>2019-08-12T06:34:59.000Z</published>
+    <updated>2020-03-29T06:38:18.878Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这个视频向大家介绍怎么给自己的 github page 增加自定义的域名。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/Y-fmxhhoj8w&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot;Everything Is
+        
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/categories/tech/"/>
+    
+    
+      <category term="github_page静态博客" scheme="http://yoursite.com/tags/github-page%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过Github page建立博客-1-Jekyll now模板</title>
+    <link href="http://yoursite.com/2018/11/11/2018-11-11-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-1-Jekyll%20now%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://yoursite.com/2018/11/11/2018-11-11-%E9%80%9A%E8%BF%87Github%20page%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2-1-Jekyll%20now%E6%A8%A1%E6%9D%BF/</id>
+    <published>2018-11-11T06:34:59.000Z</published>
+    <updated>2020-03-29T06:38:01.169Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;很高兴今天跟大家介绍如何通过 Github page 建立免费的个人博客，无需去担心数据库和安全，无需安装应用或申请域名，10 分钟建立极简的个人博客。&lt;/p&gt;
+&lt;p&gt;Jekyll now 项目地址: &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/categories/tech/"/>
+    
+    
+      <category term="github_page静态博客" scheme="http://yoursite.com/tags/github-page%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Louvre</title>
+    <link href="http://yoursite.com/2018/11/03/2018-11-03-Louvre/"/>
+    <id>http://yoursite.com/2018/11/03/2018-11-03-Louvre/</id>
+    <published>2018-11-03T06:34:59.000Z</published>
+    <updated>2020-03-29T06:37:51.649Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;18 年 11 月 2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>断舍离</title>
+    <link href="http://yoursite.com/2017/12/27/2017-12-27-%E6%96%AD%E8%88%8D%E7%A6%BB/"/>
+    <id>http://yoursite.com/2017/12/27/2017-12-27-%E6%96%AD%E8%88%8D%E7%A6%BB/</id>
+    <published>2017-12-27T06:34:59.000Z</published>
+    <updated>2020-03-29T06:37:42.459Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;生活在一个物质亢余的年代是辛苦的，所有人都拼命得到物质，人与人评价的标准无非是金钱，女人，地位，这些标准面目可憎，令人厌恶，每次我回到家姥姥都滔滔不绝地说我太瘦要多吃饭，穿的太少赶紧买衣服，我知道她本质上是为我好；可这些东西与她有什么关系？吃多少穿什么是我自己的事情，与她有
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>终身学习读书笔记</title>
+    <link href="http://yoursite.com/2017/12/24/2017-12-24-%E7%BB%88%E8%BA%AB%E5%AD%A6%E4%B9%A0%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/12/24/2017-12-24-%E7%BB%88%E8%BA%AB%E5%AD%A6%E4%B9%A0%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</id>
+    <published>2017-12-24T06:34:59.000Z</published>
+    <updated>2020-03-29T06:37:33.429Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;教育模式&quot;&gt;&lt;a href=&quot;#教育模式&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>reckless</title>
+    <link href="http://yoursite.com/2017/11/19/2017-11-09-reckless/"/>
+    <id>http://yoursite.com/2017/11/19/2017-11-09-reckless/</id>
+    <published>2017-11-19T06:34:59.000Z</published>
+    <updated>2020-03-29T06:37:15.234Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近在比较好的循环当中，工作解决了不少问题，心态也逐渐回归平静。i&lt;/p&gt;
+&lt;p&gt;是要在冒险与宁静中找一个平衡点的，要经常做一些比较新奇的事情，不需要考虑后果与影响，年轻就该是 reckless。&lt;/p&gt;
+&lt;p&gt;听见一个故事还是很感动，Chenhao
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Review</title>
+    <link href="http://yoursite.com/2017/11/17/2017-11-17-Review/"/>
+    <id>http://yoursite.com/2017/11/17/2017-11-17-Review/</id>
+    <published>2017-11-17T06:34:59.000Z</published>
+    <updated>2020-03-29T06:37:24.975Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1 举出 3-5 件过去发生的不好的事，写下对自己的积极信息，可能对未来产生好的影响？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;体育不好，从小不太合群 — 生活独立，可以自己自由地去做喜欢的事情，看了不少书。&lt;/li&gt;
+&lt;li&gt;大学荒废了几年时间，没有形成核心竞争力 —
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开始</title>
+    <link href="http://yoursite.com/2014/09/27/2016-09-27-%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2014/09/27/2016-09-27-%E5%BC%80%E5%A7%8B/</id>
+    <published>2014-09-27T06:34:59.000Z</published>
+    <updated>2020-03-29T06:37:06.136Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;好像好几年没有动笔写过什么东西了，可能生活真的如此单调每天三点一线，又抑或想到了什么听到了什么可最后表达出来就成了另外一种情境。我一直是个口不对心的人，是啊如果早点认识到这点就好了免得带给大家很多麻烦。其实时间还是像白驹过隙般流过的，转眼之间毕业业已四年，记得大学时候刚到二
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MARKDOWN学习笔记</title>
+    <link href="http://yoursite.com/2014/09/05/2014-09-05-MARKDOWN%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2014/09/05/2014-09-05-MARKDOWN%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2014-09-05T06:34:59.000Z</published>
+    <updated>2020-03-29T06:36:57.044Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Markdown-的基本格式&quot;&gt;&lt;a href=&quot;#Markdown-的基本格式&quot; class=&quot;headerlink&quot; title=&quot;Markdown 的基本格式&quot;&gt;&lt;/a&gt;Markdown
+        
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/categories/tech/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考试</title>
+    <link href="http://yoursite.com/2014/07/01/2014-07-01-%E8%80%83%E8%AF%95/"/>
+    <id>http://yoursite.com/2014/07/01/2014-07-01-%E8%80%83%E8%AF%95/</id>
+    <published>2014-07-01T06:34:59.000Z</published>
+    <updated>2020-03-29T06:36:46.762Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;不懂为什么大家都那么努力去学习考试，明明感觉在中国这个社会是不起什么作用的，Google，FB 那些互联网公司似乎一到中国就变得水土不符。J
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bye_bye</title>
+    <link href="http://yoursite.com/2013/03/10/2013-03-10-bye_bye/"/>
+    <id>http://yoursite.com/2013/03/10/2013-03-10-bye_bye/</id>
+    <published>2013-03-10T06:34:59.000Z</published>
+    <updated>2020-03-29T06:36:36.177Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我很感谢在生命中最灰暗的时期，曾经有一个人坚定不移地陪着我。&lt;/p&gt;
+&lt;p&gt;当时我还没毕业正在实习，身无分文，伶仃的缓缓撬开社会的大门，见到每一个生人都会不好意思的讪讪一笑，走路会走在墙边，人群中也是最不显眼的一个。我很难想象会有一个女生可以毫无保留的对我，始终不移真心。&lt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>性格测试</title>
+    <link href="http://yoursite.com/2012/08/03/2012-08-03-%E6%80%A7%E6%A0%BC%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2012/08/03/2012-08-03-%E6%80%A7%E6%A0%BC%E6%B5%8B%E8%AF%95/</id>
+    <published>2012-08-03T06:34:59.000Z</published>
+    <updated>2020-03-29T06:36:27.098Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#ISFJ 照顾者型――值得信赖和依靠&lt;/p&gt;
+&lt;p&gt;一、你的 MBTI 图形&lt;/p&gt;
+&lt;p&gt;MBTI 倾向示意图(类型：ISFJ
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>矛盾</title>
+    <link href="http://yoursite.com/2010/05/10/2010-05-10-%E7%9F%9B%E7%9B%BE/"/>
+    <id>http://yoursite.com/2010/05/10/2010-05-10-%E7%9F%9B%E7%9B%BE/</id>
+    <published>2010-05-10T06:34:59.000Z</published>
+    <updated>2020-03-29T06:36:14.176Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;做志愿者，让我接触了太多太多可爱的孩子，他们的一颦一笑和对未来的那种憧憬懵懂让我自惭形秽。&lt;br&gt;身体的残疾并不能掩盖他们心灵的单纯，最让我感动的那位姓张的女孩，第一天我看见她左腿没了，第二天分开托着假肢颤颤巍巍的站起来抱了我一下的时候，我清清楚楚的感觉到心中最柔软的地方狠
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>封闭2</title>
+    <link href="http://yoursite.com/2010/05/03/2010-05-03-%E5%B0%81%E9%97%AD2/"/>
+    <id>http://yoursite.com/2010/05/03/2010-05-03-%E5%B0%81%E9%97%AD2/</id>
+    <published>2010-05-03T06:34:59.000Z</published>
+    <updated>2020-03-29T06:35:44.504Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;总是要经得起时间沉淀的东西才会用词语去描述，莫名的患了一种封闭的绝症，陌生人对我再好也难以对他推心置腹，总是开一些不痛不痒的玩笑敷衍过去。&lt;br&gt;一个人站在原野的中间，风就从我耳边吹过，好像当年的喃喃细语。随手抓了一把稻谷在手心，剥开才发现，它是没有心的。斜着头看了一眼自己
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>封闭</title>
+    <link href="http://yoursite.com/2009/12/03/2009-12-03-%E5%B0%81%E9%97%AD/"/>
+    <id>http://yoursite.com/2009/12/03/2009-12-03-%E5%B0%81%E9%97%AD/</id>
+    <published>2009-12-03T06:34:59.000Z</published>
+    <updated>2020-03-29T06:35:32.612Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;晚上一个朋友对我说，&lt;br&gt;他父亲去世了，他眼睁睁地看着，无力改变。&lt;br&gt;他前两个月还说要把他爸带到上海来医治的，可没想到，结果却会是现在这样。&lt;br&gt;他说如果政府会像新疆 7.5 那次每人赔偿 42
+        
+      
+    
+    </summary>
+    
+    
+      <category term="personal" scheme="http://yoursite.com/categories/personal/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>
