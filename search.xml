@@ -370,4 +370,47 @@
         <tag>github_page静态博客</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Xpath学习笔记</title>
+    <url>/2021/02/05/2021-2-5-Xpath%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>XPATH -&gt; XML path language</p>
+<h3 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h3><p>In XPath, there are seven kinds of nodes: element, attribute, text, namespace, processing-instruction, comment, and document nodes.</p>
+<p>XML documents are treated as trees of nodes. The topmost element of the tree is called the root element.</p>
+<h3 id="Relationship-of-Nodes"><a href="#Relationship-of-Nodes" class="headerlink" title="Relationship of Nodes"></a>Relationship of Nodes</h3><ul>
+<li>Parent</li>
+</ul>
+<p>Each element and attribute has one parent.</p>
+<ul>
+<li>Children</li>
+</ul>
+<p>Element nodes may have zero, one or more children.</p>
+<ul>
+<li>Siblings</li>
+</ul>
+<p>Nodes that have the same parent.</p>
+<ul>
+<li>Ancestors</li>
+</ul>
+<p>A node’s parent, parent’s parent, etc.</p>
+<ul>
+<li>Descendants</li>
+</ul>
+<p>A node’s children, children’s children, etc.</p>
+<h3 id="Selecting-nodes"><a href="#Selecting-nodes" class="headerlink" title="Selecting nodes"></a>Selecting nodes</h3><p>XPath uses path expressions to select nodes in an XML document. The node is selected by following a path or steps. The most useful path expressions are listed below:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Expression	        Description</span><br><span class="line">nodename	        Selects all nodes with the name &quot;nodename&quot;</span><br><span class="line">&#x2F;	                Selects from the root node</span><br><span class="line">&#x2F;&#x2F;	                Selects nodes in the document from the current node that match the selection no matter where they are</span><br><span class="line">.	                Selects the current node</span><br><span class="line">..	                Selects the parent of the current node</span><br><span class="line">@	                Selects attributes</span><br></pre></td></tr></table></figure>
+
+<p>Examples</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bookstore	        Selects all nodes with the name &quot;bookstore&quot;</span><br><span class="line">&#x2F;bookstore	        Selects the root element bookstore</span><br><span class="line">bookstore&#x2F;book	    Selects all book elements that are children of bookstore</span><br><span class="line">&#x2F;&#x2F;book	Selects     all book elements no matter where they are in the document</span><br><span class="line">bookstore&#x2F;&#x2F;book	    Selects all book elements that are descendant of the bookstore element, no matter where they are under the bookstore element</span><br><span class="line">&#x2F;&#x2F;@lang	Selects     all attributes that are named lang</span><br></pre></td></tr></table></figure>
+
+<h3 id="Xpath-Axes"><a href="#Xpath-Axes" class="headerlink" title="Xpath Axes"></a>Xpath Axes</h3><p><a href="https://www.w3schools.com/xml/xpath_syntax.asp" target="_blank" rel="noopener">https://www.w3schools.com/xml/xpath_syntax.asp</a></p>
+<h3 id="Contains-Siblings"><a href="#Contains-Siblings" class="headerlink" title="Contains, Siblings"></a>Contains, Siblings</h3><p><a href="https://www.guru99.com/using-contains-sbiling-ancestor-to-find-element-in-selenium.html" target="_blank" rel="noopener">https://www.guru99.com/using-contains-sbiling-ancestor-to-find-element-in-selenium.html</a></p>
+<h3 id="Simple-online-Xpath-test"><a href="#Simple-online-Xpath-test" class="headerlink" title="Simple online Xpath test"></a>Simple online Xpath test</h3><p><a href="http://www.xpathtester.com/xpath/76bb0bca-1896-43b7-8312-54f924a98a89" target="_blank" rel="noopener">http://www.xpathtester.com/xpath/76bb0bca-1896-43b7-8312-54f924a98a89</a></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>xpath</tag>
+      </tags>
+  </entry>
 </search>

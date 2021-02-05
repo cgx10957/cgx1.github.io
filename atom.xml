@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-02-05T02:13:57.839Z</updated>
+  <updated>2021-02-05T03:27:43.049Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Xpath学习笔记</title>
+    <link href="http://yoursite.com/2021/02/05/2021-2-5-Xpath%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2021/02/05/2021-2-5-Xpath%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-02-05T03:14:59.000Z</published>
+    <updated>2021-02-05T03:27:43.049Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;XPATH -&amp;gt; XML path language&lt;/p&gt;
+&lt;h3 id=&quot;Node&quot;&gt;&lt;a href=&quot;#Node&quot; class=&quot;headerlink&quot; title=&quot;Node&quot;&gt;&lt;/a&gt;Node&lt;/h3&gt;&lt;p&gt;In XPath, there are
+        
+      
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://yoursite.com/categories/tech/"/>
+    
+    
+      <category term="xpath" scheme="http://yoursite.com/tags/xpath/"/>
+    
+  </entry>
   
   <entry>
     <title>通过Github page建立博客-4-Markdown</title>

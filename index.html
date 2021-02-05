@@ -139,6 +139,90 @@
     
     
     <article
+  id="post-2021-2-5-Xpath笔记"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2021/02/05/2021-2-5-Xpath%E7%AC%94%E8%AE%B0/"
+    >Xpath学习笔记</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/02/05/2021-2-5-Xpath%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time datetime="2021-02-05T03:14:59.000Z" itemprop="datePublished">2021-02-05</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/tech/">tech</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>XPATH -&gt; XML path language</p>
+<h3 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h3><p>In XPath, there are seven kinds of nodes: element, attribute, text, namespace, processing-instruction, comment, and document nodes.</p>
+<p>XML documents are treated as trees of nodes. The topmost element of the tree is called the root element.</p>
+<h3 id="Relationship-of-Nodes"><a href="#Relationship-of-Nodes" class="headerlink" title="Relationship of Nodes"></a>Relationship of Nodes</h3><ul>
+<li>Parent</li>
+</ul>
+<p>Each element and attribute has one parent.</p>
+<ul>
+<li>Children</li>
+</ul>
+<p>Element nodes may have zero, one or more children.</p>
+<ul>
+<li>Siblings</li>
+</ul>
+<p>Nodes that have the same parent.</p>
+<ul>
+<li>Ancestors</li>
+</ul>
+<p>A node’s parent, parent’s parent, etc.</p>
+<ul>
+<li>Descendants</li>
+</ul>
+<p>A node’s children, children’s children, etc.</p>
+<h3 id="Selecting-nodes"><a href="#Selecting-nodes" class="headerlink" title="Selecting nodes"></a>Selecting nodes</h3><p>XPath uses path expressions to select nodes in an XML document. The node is selected by following a path or steps. The most useful path expressions are listed below:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Expression	        Description</span><br><span class="line">nodename	        Selects all nodes with the name &quot;nodename&quot;</span><br><span class="line">&#x2F;	                Selects from the root node</span><br><span class="line">&#x2F;&#x2F;	                Selects nodes in the document from the current node that match the selection no matter where they are</span><br><span class="line">.	                Selects the current node</span><br><span class="line">..	                Selects the parent of the current node</span><br><span class="line">@	                Selects attributes</span><br></pre></td></tr></table></figure>
+
+<p>Examples</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">bookstore	        Selects all nodes with the name &quot;bookstore&quot;</span><br><span class="line">&#x2F;bookstore	        Selects the root element bookstore</span><br><span class="line">bookstore&#x2F;book	    Selects all book elements that are children of bookstore</span><br><span class="line">&#x2F;&#x2F;book	Selects     all book elements no matter where they are in the document</span><br><span class="line">bookstore&#x2F;&#x2F;book	    Selects all book elements that are descendant of the bookstore element, no matter where they are under the bookstore element</span><br><span class="line">&#x2F;&#x2F;@lang	Selects     all attributes that are named lang</span><br></pre></td></tr></table></figure>
+
+<h3 id="Xpath-Axes"><a href="#Xpath-Axes" class="headerlink" title="Xpath Axes"></a>Xpath Axes</h3><p><a href="https://www.w3schools.com/xml/xpath_syntax.asp" target="_blank" rel="noopener">https://www.w3schools.com/xml/xpath_syntax.asp</a></p>
+<h3 id="Contains-Siblings"><a href="#Contains-Siblings" class="headerlink" title="Contains, Siblings"></a>Contains, Siblings</h3><p><a href="https://www.guru99.com/using-contains-sbiling-ancestor-to-find-element-in-selenium.html" target="_blank" rel="noopener">https://www.guru99.com/using-contains-sbiling-ancestor-to-find-element-in-selenium.html</a></p>
+<h3 id="Simple-online-Xpath-test"><a href="#Simple-online-Xpath-test" class="headerlink" title="Simple online Xpath test"></a>Simple online Xpath test</h3><p><a href="http://www.xpathtester.com/xpath/76bb0bca-1896-43b7-8312-54f924a98a89" target="_blank" rel="noopener">http://www.xpathtester.com/xpath/76bb0bca-1896-43b7-8312-54f924a98a89</a></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/xpath/" rel="tag">xpath</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-2019-8-12-通过Github page建立博客-4-Markdown"
   class="article article-type-post"
   itemscope
@@ -653,67 +737,6 @@
 <ul>
 <li>编程，5 小时以上</li>
 </ul>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-2016-09-27-开始"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2014/09/27/2016-09-27-%E5%BC%80%E5%A7%8B/"
-    >开始</a> 
-</h2>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2014/09/27/2016-09-27-%E5%BC%80%E5%A7%8B/" class="article-date">
-  <time datetime="2014-09-27T06:34:59.000Z" itemprop="datePublished">2014-09-27</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/personal/">personal</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>好像好几年没有动笔写过什么东西了，可能生活真的如此单调每天三点一线，又抑或想到了什么听到了什么可最后表达出来就成了另外一种情境。我一直是个口不对心的人，是啊如果早点认识到这点就好了免得带给大家很多麻烦。其实时间还是像白驹过隙般流过的，转眼之间毕业业已四年，记得大学时候刚到二十岁，我在校内网 post 一条信息说哎呀我也是奔三的人了，当时还有不少同学笑我，可转眼间也已成事实了。其实这几年身体毛病是不少的，牙痛的死去活来又是补牙又是根管，感冒不断时常还胃伤寒，这些都是家常便饭我也就认栽了，谁叫我以前不会爱惜身体。在夜晚行走的人只看到了前面路边的灯光，而没有看到身后的月亮。我是罪有应得的。</p>
-<p>但这不是说我的生活是一成不变的，恰恰相反，我改掉了以前不少的臭毛病。上学时候的我总是习惯瞻前顾后畏首畏尾，好像一个错误就真的有什么不可挽回的后果似的，其实这都是我自己心里的小怪兽在作祟，我表面上谦卑，可内心重面子的紧，生怕自己的不小心会对人家造成什么困扰。其实这都是我的自相情愿，我在当时所苦思冥想去思考的最优解在长远来看根本就是错误。人总会因为视野的原因被自己固有的思维所困住，所谓最优解也不过是当前情境下做出的推测，而剧情长期怎么发展完全不会受到我的控制。我的合理揣测在旁观高人看来可能就是个傻逼，当然人要认识到自己的局限性并合理做出改变才能进步，离开自满的那一小片舒适区，向未知的可能性迈进，每天都改变一点点旧有的思维。</p>
-<p>刚毕业我是过得比较惨淡的，在一家小公司做会计，勉强生活而已谈不上有什么远景。当时有个女朋友是唯一幸运的事吧，她会教我怎么做饭怎么去经营自己的小生活，我从来不是一个非常自立或者自信的人，可她让我懂得了生命中有一种东西你必须要鼓足勇气去勇敢面对，无论如何都要保持乐观，我想这会是我的精神财富吧。当然最后还是因为我不想 settle down 而分手了，虽然可惜但我不后悔，我不是一个很会照顾别人的人，说白了就是情商低吧，家庭对我来说太沉重了，我想我当时根本没有能力去承担。</p>
-<p>印象当中 13 年的时候在外公奉贤那边待了半年，当时辞掉了工作，什么都不要，什么都不想，抱了几本书回去了。我不是一个厚脸皮的人，也不想一天宅在家里，找了一个区图书馆，每天一大早爬起来去图书馆，晚上图书馆关门之后在慢慢悠悠坐着公车回家，那是我最轻松的一段时间，有时候一天可以仅仅说一两句话，抑或一句都不说，抱着本书坐在图书馆的角落，慢慢悠悠的给自己讲故事听，然后大脑里两个我在唱对角戏，哎呀呀那边那个人好傻，衬衫穿反了啦；另一个人就暗搓搓的说你自己不一样很蠢，经常袜子反着穿，loser 啦什么什么的。当时那半年找了几本 CPA 的书来看，看厌了就跑到奉贤华东理工那里晃荡，这是一个民风淳朴的男校，举目望去都是男人，我跑到湖边一板一眼地朗读英语一边端详走过的汉子们，他们不似我，或多或少眼里都有些光芒。</p>
-<p>我习惯做一个循规蹈矩的好孩子，但其实这样形容我我会最不中意，没有人喜欢一成不变受人摆布的生活，厌倦之后我变得特别叛逆，想要去掀女生的裙子，打架骂街无恶不作。这并不是说我本质是个人渣，而是太多条条框框局限了的思维，我看不到本来显而易见的情愫，抑或机会，于是乎在大学转而沉溺游戏，辗转反侧于另一个世界。其实世界本该是轮回的，我在这个世界也不过是一个渺小的存在，而我依然期望自己站在世界的中心，这便是命运的悖论，也是我的幼稚。</p>
-<p>但又有谁说过要等待呢，我已厌倦了等待，如果回忆与情愫都日渐深沉，那么诗歌与远方都无需完整。</p>
-<p>我还是那个我，可又添加了几分沧桑与事故，运气还是不差的。辞职半年之后重新开始找工作，从无金融从业经验的我竟然意外的进入了一家公司从事衍生品海外运营，说来也是讽刺，面试当天我都不知道公司所做的业务是什么，自己面的什么岗位也是双眼一抹黑，一面居然直接进来外国友人面试，而我完全没有准备英文简历，当时真是连骂了自己几声娘，所幸破罐子破摔放胆乱说，最后也是因为英语侥幸过关。生活其实就是这么讽刺，最初计划的和期间达成的往往南辕北辙，我们只好亦步亦趋一点点修正计划，好让自己不要偏离坐标轴太远，为了观察爱情，也索性离其千里期望能看到它本来的样子。</p>
-<p>我变得关心政治，关注弱势群体，期望民主真的能达到它的现实意义，同时我也 make a compromise. 但我不放弃变化，唯愿一生不羁放纵爱自由。</p>
-<p>生活还是有条不紊的进行着，可我越来越希望明天会做出一点改变，哪怕是什么不好的东西，也许会触动我尘封已久的痛觉。我倾尽全力，瞪着走来的人在我身边路过，又再走远，然后看不到他的背影。于是我忘记了本来的样子，都说勿忘初心，可是很多时候成长只不过因为我们有选择地忘记了某些永远理解不了的东西，而同时又记住了过去教会我们的事。</p>
  
       <!-- reward -->
       
